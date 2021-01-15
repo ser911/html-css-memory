@@ -22,8 +22,46 @@
 .title-section > h1{
   color: #FFFFFF;
   font-size: 50px;
-
 }
 
+/* /HEADER RULES  */
 
-/* HEADER RULES  */
+/* /GAME CSS */
+
+ .row{
+   width: 50%;
+   margin: 20px auto;
+   /* border: 1px solid black */
+ }
+
+ .cards{
+   width: 140px;
+   height: 200px;
+   border: 1px solid black;
+   display: inline-block;
+   margin-left: 5px;
+   border-radius: 10px;
+   box-shadow: 5px 5px 5px grey;
+   background-image: url(../img/pattern.png);
+   background-size: contain;
+   position: relative;
+ }
+
+#card-1{
+  background-image: url(../img/noun_air_balloon_3134741.png);
+  background-size: contain;
+  background-color: #FFFFFF;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cards > span{
+color: #f54291;
+display: inline-block;
+position: absolute;
+bottom: 15px;
+left: 30px;
+background-color: #FFFFFF;
+font-size: 18px;
+
+}
+/* /GAME CSS */

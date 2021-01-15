@@ -4,6 +4,26 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #ADD8E6;
+  font-family: 'Nerko One', cursive;
 }
 
+
 /* GENERAL "RESET" SETTINGS */
+
+/* HEADER RULES  */
+
+.title-section{
+  margin: 50px auto;
+  text-align: center;
+}
+
+
+.title-section > h1{
+  color: #FFFFFF;
+  font-size: 50px;
+
+}
+
+
+/* HEADER RULES  */

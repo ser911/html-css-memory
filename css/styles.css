@@ -8,7 +8,6 @@
   font-family: 'Nerko One', cursive;
 }
 
-
 /* GENERAL "RESET" SETTINGS */
 
 /* HEADER RULES  */
@@ -18,7 +17,6 @@
   text-align: center;
 }
 
-
 .title-section > h1{
   color: #FFFFFF;
   font-size: 50px;
@@ -26,42 +24,126 @@
 
 /* /HEADER RULES  */
 
-/* /GAME CSS */
+/* /GAME CSS BASIC SETUP */
 
- .row{
-   width: 50%;
-   margin: 20px auto;
-   /* border: 1px solid black */
- }
+ .row {
+  width: 50%;
+  margin: 20px auto;
+}
 
- .cards{
-   width: 140px;
-   height: 200px;
-   border: 1px solid black;
-   display: inline-block;
-   margin-left: 5px;
-   border-radius: 10px;
-   box-shadow: 5px 5px 5px grey;
-   background-image: url(../img/pattern.png);
-   background-size: contain;
-   position: relative;
- }
+ .cards {
+  width: 140px;
+  height: 200px;
+  border: 1px solid black;
+  display: inline-block;
+  margin-left: 5px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px grey;
+  background-image: url(../img/pattern.png);
+  background-size: contain;
+  position: relative;
+}
 
-#card-1{
+#card-1 {
   background-image: url(../img/noun_air_balloon_3134741.png);
   background-size: contain;
   background-color: #FFFFFF;
   background-position: center;
   background-repeat: no-repeat;
 }
-.cards > span{
-color: #f54291;
-display: inline-block;
-position: absolute;
-bottom: 15px;
-left: 30px;
-background-color: #FFFFFF;
-font-size: 18px;
 
+#card-1>span {
+  color: #f54291;
+  display: inline-block;
+  position: absolute;
+  bottom: 15px;
+  left: 30px;
+  background-color: #FFFFFF;
+  font-size: 18px;
 }
-/* /GAME CSS */
+
+.cards>span {
+  color: #f54291;
+  display: none;
+  position: absolute;
+  bottom: 15px;
+  left: 30px;
+  background-color: #FFFFFF;
+  font-size: 18px;
+}
+
+/* /GAME CSS BASIC SETUP */
+
+/* INTERACTION */
+
+.cards:hover>span {
+  color: #f54291;
+  display: inline-block;
+  position: absolute;
+  bottom: 15px;
+  left: 30px;
+  background-color: #FFFFFF;
+  font-size: 18px;
+  color: #f88f01;
+}
+
+.balloon:hover {
+  background-image: url(../img/noun_air_balloon_3134741.png);
+  background-size: contain;
+  background-color: #FFFFFF;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bicycle:hover {
+  background-image: url(../img/noun_Bicycle_3134821.png);
+  background-size: contain;
+  background-color: #FFFFFF;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cruise-ship:hover {
+  background-image: url(../img/noun_Cruise_Ship_3134824.png);
+  background-size: contain;
+  background-color: #FFFFFF;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.submarine:hover {
+  background-image: url(../img/noun_Submarine_3134738.png);
+  background-size: contain;
+  background-color: #FFFFFF;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.tractor:hover {
+  background-image: url(../img/noun_Tractor_3134797.png);
+  background-size: contain;
+  background-color: #FFFFFF;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.tram:hover {
+  background-image: url(../img/noun_Tram_3134750.png);
+  background-size: contain;
+  background-color: #FFFFFF;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* /INTERACTION */
+
+/* FOOTER-CREDITS */
+
+footer{
+  text-align: center;
+}
+h5{
+  font-weight: bolder;
+}
+
+/* /FOOTER-CREDITS */

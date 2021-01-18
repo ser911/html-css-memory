@@ -10,7 +10,7 @@
 
 /* GENERAL "RESET" SETTINGS */
 
-/* HEADER RULES  */
+/* HEADER RULES */
 
 .title-section{
   margin: 50px auto;
@@ -34,9 +34,9 @@
  .cards {
   width: 140px;
   height: 200px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: inline-block;
-  margin-left: 5px;
+  margin-left: 10px;
   border-radius: 10px;
   box-shadow: 5px 5px 5px grey;
   background-image: url(../img/pattern.png);
@@ -144,6 +144,7 @@ footer{
 }
 h5{
   font-weight: bolder;
+  margin-bottom: 30px;
 }
 
 /* /FOOTER-CREDITS */
